@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-daily",
             title: "Daily Life",
-            image: "Suoc-Anh/exam.jpg",
+            image: "Suoc-Anh/exa.jpg",
             cards: [
                 { term: "Student", definition: "Học sinh, sinh viên" },
                 { term: "Teacher", definition: "Giáo viên" },
