@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-daily",
             title: "Daily Life",
-            image: "Suộc Ảnh/exam.jpg",
+            image: "Suoc-Anh/exam.jpg",
             cards: [
                 { term: "Student", definition: "Học sinh, sinh viên" },
                 { term: "Teacher", definition: "Giáo viên" },
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-schools",
             title: "Schools",
-            image: "Suộc Ảnh/raisehands.jpg",
+            image: "Suoc-Anh/raisehands.jpg",
             cards: [
                 { term: "Principal", definition: "Hiệu trưởng" },
                 { term: "Classroom", definition: "Phòng học" },
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-extra",
             title: "Extracurricular Activities",
-            image: "Suộc Ảnh/multitask.jpg",
+            image: "Suoc-Anh/multitask.jpg",
             cards: [
                 { term: "Club", definition: "Câu lạc bộ" },
                 { term: "Volunteer", definition: "Tình nguyện viên" },
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-exam",
             title: "Examination",
-            image: "Suộc Ảnh/studentgroup.jpg",
+            image: "Suoc-Anh/studentgroup.jpg",
             cards: [
                 { term: "Test", definition: "Bài kiểm tra" },
                 { term: "Score", definition: "Điểm số" },
