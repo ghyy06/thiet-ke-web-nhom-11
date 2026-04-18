@@ -108,11 +108,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // if (isPrivate && !isLoggedIn) {
-    // alert("Vui lòng đăng nhập để sử dụng tính năng này!");
-    // window.location.href = "trang1.html"; 
-    // return; 
-    //}
+    if (isPrivate && !isLoggedIn) {
+        alert("Vui lòng đăng nhập để sử dụng tính năng này!");
+        window.location.href = "trang1.html"; 
+        return; 
+    }
 
     // ==========================================
     // 3. CÁC HÀM TIỆN ÍCH DÙNG CHUNG
