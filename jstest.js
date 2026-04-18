@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (deckArray.length === 0) {
                 deckListContainer.innerHTML = `
                     <div id="notFoundMessage" style="text-align: center; padding: 40px; width: 100%;">
-                        <img src="Suộc Ảnh/thinking.jpg" style="width: 100px; opacity: 0.5; margin-bottom: 15px;">
+                        <img src="Suoc-Anh/thinking.jpg" style="width: 100px; opacity: 0.5; margin-bottom: 15px;">
                         <p style="color: #666; font-family: 'Francois One', sans-serif; font-size: 18px;">
                             Hic, không tìm thấy bộ từ vựng nào khớp với từ khóa của bạn rồi! 😢
                         </p>
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 deckCard.className = "list-item"; 
                 deckCard.style.cursor = "pointer";
 
-                const imgSrc = currentDeck.image ? currentDeck.image : "Suộc Ảnh/togiay.png";
+                const imgSrc = currentDeck.image ? currentDeck.image : "Suoc-Anh/togiay.png";
 
                 deckCard.innerHTML = `
                     <img src="${imgSrc}" class="item-thumb" alt="thumb">
